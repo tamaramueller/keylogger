@@ -1,13 +1,14 @@
 from pynput.keyboard import Listener
 import logging
+import time
 
 log_dir = ""
 
-logging.basicConfig(filename=(log_dir + "annotations.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
+logging.basicConfig(filename=(log_dir + "sync_test.txt"), level=logging.DEBUG, format='%(message)s')
 
 
 def on_press(key):
-    logging.info(str(key))
+    logging.info(str(int(round(time.time() * 1000))) + " " + str(key))
 
 
 with Listener(on_press=on_press) as listener:

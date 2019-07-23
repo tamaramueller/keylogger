@@ -1,9 +1,9 @@
 # keylogger
 A Python Keylogger, saving the timestamp and the pressed key.
 
-(0) Clone the git repository.
+(1) Clone the git repository.
 
-(1) Preferably create a virtual environment with Python 3. Then run 
+(2) Preferably create a virtual environment with Python 3. Then run 
 
 ```
 pip install -r requirements.txt
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 to install all packages. 
 
-(2) Then simply start the keylogger with the following command:
+(3) Then simply start the keylogger with the following command:
 
 ```
 python keylogger.py

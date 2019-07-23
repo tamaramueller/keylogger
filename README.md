@@ -1,6 +1,8 @@
 # keylogger
 A Python Keylogger, saving the timestamp and the pressed key.
 
+(0) Clone the git repository.
+
 (1) Preferably create a virtual environment with Python 3. Then run 
 
 ```

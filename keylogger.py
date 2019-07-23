@@ -4,7 +4,7 @@ import time
 
 log_dir = ""
 
-logging.basicConfig(filename=(log_dir + "sync_test.txt"), level=logging.DEBUG, format='%(message)s')
+logging.basicConfig(filename=(log_dir + "logfile.txt"), level=logging.DEBUG, format='%(message)s')
 
 
 def on_press(key):
